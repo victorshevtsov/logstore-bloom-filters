@@ -1,7 +1,7 @@
 import { diffToAwait } from "../src/diffToAwait";
 import { diffToPropagate } from "../src/diffToPropagate";
 import { getHashMap } from "../src/getHashMap";
-import data from "./data_1000.json";
+import data from "./data_5000.json";
 
 describe("Simple", () => {
   test("PN and FN have no records", () => {
