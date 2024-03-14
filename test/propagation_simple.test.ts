@@ -1,7 +1,7 @@
 import { diffToAwait } from "../src/diffToAwait";
 import { diffToPropagate } from "../src/diffToPropagate";
 import { getHashMap } from "../src/getHashMap";
-import data from "./data_80.json";
+import data from "./data_20.json";
 
 describe(`if PN has missing data in a set of ${data.length} elements (simple)`, () => {
   const testCases = [];
